@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: GreetWorld
+  description: API Definition of GreetWorld
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/greet
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response
