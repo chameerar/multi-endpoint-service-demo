@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/greet" name="GreetWorld" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET">
+    <resource methods="GET" url-mapping="/integration">
         <inSequence>
             <payloadFactory media-type="json">
                 <format>{"Greet":"Integation"}</format>
